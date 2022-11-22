@@ -17,15 +17,44 @@ class ViewController: UIViewController {
     @IBOutlet weak var operaterLabel: UILabel!
     
     @IBOutlet weak var segmentedOutlet: UISegmentedControl!
+    @IBOutlet weak var marioKartImageView: UIImageView!
     
-    override func viewDidLoad() {
+    
+    
+   override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    // calculate (RAY)
+
+
     
+//    if totalNumberLabel == 64 {
+//        marioKartImageView.image = UIImage(named: "mario")
+//
+//
+//    else if  % 2 == 0 {
+//        marioKartImageView.image = UIImage(named: "funny")
+//     }
+//    else {
+//         marioKartImageView.image = UIImage(named: "funnier")
+//     }
+//
+//    if  % 2 == 0 {
+//        view.backgroundColor = .blue
+//     } else {
+//         view.backgroundColor = .green
+//     }
+//
+//}
+        
+        
+    
+    
+    
+//     calculate (RAY)
+//
 //    @IBAction func operatorSegmentedControl(_ sender: Any) {
-//        switch segmentedOutlet.selectedSegmentIndex {
+//        switch segmentedOutlet.electedSegmentIndex {
 //        case 0:
 //            greeting = "Hola"
 //        case 1:
@@ -36,14 +65,13 @@ class ViewController: UIViewController {
 //        case 4:
 //        case 5:
 //        case 6:
-        }
         
     
     
-    // kasper (pictures)
-    // kasper (sliders)
-    // kasper (tip)
+    // kacper (sliders)
+    // kacper (tip
     
 
 
 
+}

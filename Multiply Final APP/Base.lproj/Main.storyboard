@@ -63,12 +63,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ja-Xo-ZLm">
-                                <rect key="frame" x="151" y="353" width="94" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="TIP"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add 15% Tip" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="46E-ui-jrP">
                                 <rect key="frame" x="151" y="392" width="96" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -97,12 +91,22 @@ Answer will be displayed in the middle.</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ja-Xo-ZLm">
+                                <rect key="frame" x="145" y="345" width="127" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Add TIP"/>
+                                <connections>
+                                    <action selector="tipButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gv8-ma-ODd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
                         <outlet property="firstNumberTextField" destination="O4l-qb-dio" id="mYr-Cu-SgC"/>
+                        <outlet property="marioKartImageView" destination="Br8-qq-Vas" id="nQf-eK-jet"/>
                         <outlet property="operaterLabel" destination="8F7-mt-Mhr" id="Gnn-QA-hh1"/>
                         <outlet property="secondNumberTextField" destination="4tu-Ep-lyM" id="6Cl-af-Ase"/>
                         <outlet property="segmentedOutlet" destination="aqh-Rt-sgJ" id="8za-uS-O3E"/>
